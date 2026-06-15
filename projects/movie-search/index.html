@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElMovilero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button-group">
+            <button class="btn-group__btn" id="themeToggle" aria-label="Alternar modo oscuro">🌙</button>
+            <button class="btn-group__btn btn-group__btn--active" id="langEs" aria-label="Español">ES</button>
+            <button class="btn-group__btn" id="langEn" aria-label="English">EN</button>
+        </div>
+        <h1 id="appTitle">Buscador de Películas</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Busca una película...">
+            <button id="searchBtn">Buscar</button>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
